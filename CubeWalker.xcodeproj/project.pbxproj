@@ -13,6 +13,10 @@
 		05A5A03916A72D13007F768F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 05A5A03716A72D13007F768F /* Credits.rtf */; };
 		05A5A03C16A72D13007F768F /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A5A03B16A72D13007F768F /* TCAppDelegate.m */; };
 		05A5A03F16A72D14007F768F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05A5A03D16A72D14007F768F /* MainMenu.xib */; };
+		05A5A04616A72E7A007F768F /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A5A04516A72E7A007F768F /* SceneKit.framework */; };
+		05A5A04816A72E7E007F768F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A5A04716A72E7E007F768F /* QuartzCore.framework */; };
+		05A5A04B16A72F3E007F768F /* scene.dae in Resources */ = {isa = PBXBuildFile; fileRef = 05A5A04916A72F3E007F768F /* scene.dae */; };
+		05A5A04C16A72F3E007F768F /* floor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05A5A04A16A72F3E007F768F /* floor.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		05A5A03A16A72D13007F768F /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
 		05A5A03B16A72D13007F768F /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
 		05A5A03E16A72D14007F768F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05A5A04516A72E7A007F768F /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		05A5A04716A72E7E007F768F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		05A5A04916A72F3E007F768F /* scene.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scene.dae; sourceTree = "<group>"; };
+		05A5A04A16A72F3E007F768F /* floor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floor.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A5A04816A72E7E007F768F /* QuartzCore.framework in Frameworks */,
+				05A5A04616A72E7A007F768F /* SceneKit.framework in Frameworks */,
 				05A5A02916A72D13007F768F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +73,8 @@
 		05A5A02716A72D13007F768F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05A5A04716A72E7E007F768F /* QuartzCore.framework */,
+				05A5A04516A72E7A007F768F /* SceneKit.framework */,
 				05A5A02816A72D13007F768F /* Cocoa.framework */,
 				05A5A02A16A72D13007F768F /* Other Frameworks */,
 			);
@@ -93,6 +105,8 @@
 		05A5A02F16A72D13007F768F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05A5A04916A72F3E007F768F /* scene.dae */,
+				05A5A04A16A72F3E007F768F /* floor.jpg */,
 				05A5A03016A72D13007F768F /* CubeWalker-Info.plist */,
 				05A5A03116A72D13007F768F /* InfoPlist.strings */,
 				05A5A03416A72D13007F768F /* main.m */,
@@ -157,6 +171,8 @@
 				05A5A03316A72D13007F768F /* InfoPlist.strings in Resources */,
 				05A5A03916A72D13007F768F /* Credits.rtf in Resources */,
 				05A5A03F16A72D14007F768F /* MainMenu.xib in Resources */,
+				05A5A04B16A72F3E007F768F /* scene.dae in Resources */,
+				05A5A04C16A72F3E007F768F /* floor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
